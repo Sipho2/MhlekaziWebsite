@@ -180,5 +180,18 @@ main{
     text-decoration: none;
     background-color: lightgrey;
     color: black;
-    
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn-signing-main:hover{
+    background-color: grey;
+}
+
+.robot-3d{
+    position: absolute;
+    top:0;
+    right: -20%;
 }
