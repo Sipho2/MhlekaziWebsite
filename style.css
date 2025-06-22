@@ -75,7 +75,7 @@ nav a:hover{
     color: #a7a7a7;
 }
 
-.btn-signin{
+.btn-signing{
     background-color: #a7a7a7;
     color: black;
     padding: 0.8rem 2rem;
@@ -87,7 +87,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-.btn-signin:hover{
+.btn-signing:hover{
     background-color: white;
 }
 
@@ -100,20 +100,20 @@ main{
 }
 
 .content{
-    max-width: 40rem;
+    max-width:40rem;
     margin-left: 10%;
     z-index:999;
 }
 
-.tax-box{
+.tag-box{
     position: relative;
     width: 18rem;
     height: 2.5rem;
     border-radius: 50px;
     background: linear-gradient(to right, #656565, #7f42a7,#6600c5,#5300a0,#757575,#656565);
-    background-size: 200%;
+    background-size:200%;
     animation: animationGradient 2.5s linear infinite;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3)
+    box-shadow: 0 0 15px rgba(255,255,255,0.336);
 }
 
 @keyframes animationGradient {
@@ -122,10 +122,11 @@ main{
     }
 }
 
+
 .tag-box .tag{
     position: absolute;
     inset: 3px 3px 3px 3px;
-    /*background-color: black;*/
+    background-color: black;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -133,7 +134,7 @@ main{
     transition: 0.5s ease;
     cursor:pointer;
 }
-/*
+
 .tag-box .tag:hover{
     color: #5300a0;
 }
@@ -142,5 +143,42 @@ main{
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    margin: 2rem 0;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(128,128,128,0.418);
+}
 
+.description{
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    max-width: 35rem;
+    color: grey;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.btn-get-started{
+    text-decoration: none;
+    border: 1px solid #2a2a2a;
+    padding: 0.7rem 1.2rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn-get-started:hover{
+    background-color: #1a1a1a;
+}
+
+.btn-signing-main{
+    text-decoration: none;
+    background-color: lightgrey;
+    color: black;
+    
 }
